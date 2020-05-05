@@ -18,3 +18,7 @@ Using the scripts it gives a five step worklow:
 
 ## INCAR & KPOINTS
 For reference, I have also attached typical INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `NSW = 0` to avoid relaxing the structure.
+
+## Study of Imaginary Modes
+- Phonopy can be used to investigate the symmetry of the bottom well structure.
+- ISODISTORT can be used to link the top and bottm well structures.
