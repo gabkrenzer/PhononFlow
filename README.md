@@ -1,4 +1,4 @@
-# phononpy_flow
+# phonopy_flow
 A collection of tips, scripts, and files to enable a better workflow to carry out phonon calculations using VASP, phonopy and other post-processing tools.
 
 ### Phonopy 
