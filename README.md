@@ -1,2 +1,6 @@
-# phonon
-A collection of tips, scripts, and files to enable a better workflow for phonon calculations using VASP and phonopy.
+# phonon_flow
+A collection of tips, scripts, and files to enable a better workflow to post-process VASP calculations using phonopy and other processing tools.
+
+### Download Phonopy 
+https://phonopy.github.io/phonopy/install.html
+
