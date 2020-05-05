@@ -13,6 +13,6 @@ I make use of the following:
 
 ## Workflows
 You can find workflows to:
-- run phonopy and obtain phonon dispersions, density of states, mode symmetries, mode animatiuons, thermal properties and many others...
-- run phonopy-qha to perform studies using the quasi-harmonic approximation.
-- use ModeMap to analyse potential energy surface along phonon modes.
+1. run phonopy and obtain phonon dispersions, density of states, mode symmetries, mode animatiuons, thermal properties and many others...
+2. run phonopy-qha to perform studies using the quasi-harmonic approximation.
+3. use ModeMap to analyse potential energy surface along phonon modes.
