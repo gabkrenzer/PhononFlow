@@ -16,3 +16,6 @@ You can find workflows to:
 1. Run **phonopy** and obtain phonon dispersions, density of states, mode symmetries, mode animatiuons, thermal properties and many others...
 2. Run **phonopy-qha** to perform studies using the quasi-harmonic approximation.
 3. Use **ModeMap** to analyse potential energy surface along phonon modes.
+
+## Mind Maps
+All the mind maps were kindly realised by Justine Riou. 
