@@ -1,0 +1,23 @@
+#/bin/bash -l
+
+for MODE in 1
+do
+	cd $MODE
+	echo MODE $MODE
+
+	for NUM in {001..021}
+	do
+		echo $NUM  
+   		mkdir $NUM 
+   		cp INCAR POTCAR ./$NUM/
+   		cp KPOINTS ./$NUM/
+   		mv MPOSCAR-$NUM $NUM/POSCAR
+   		cp modemap.job $NUM/
+   		cp clean_mm.sh $NUM/
+   		cd  $NUM
+   		qsub modemap.job
+   		cd ../
+   		sleep 1
+	done
+	cd ../
+done

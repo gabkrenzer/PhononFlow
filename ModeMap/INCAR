@@ -1,0 +1,18 @@
+ADDGRID = .TRUE.
+EDIFF = 1E-8
+ENCUT = 500 (Same as for the bulk calculation)
+GGA = PS
+ISIF = 2
+ISMEAR = 0
+NCORE = 24 (NCORE=cores.per.node; Sometimes /2)
+LASPH = .TRUE.
+LCHARG = .FALSE.
+LREAL = .FALSE.
+LWAVE = .FALSE.
+NELMIN = 5
+KPAR = 2 (Divides k-grid into separate groups; KPAR[<=4]=nb.of.nodes)
+NSW = 0 (no ionic step; no relaxation)
+PREC = Accurate
+SIGMA = 0.05
+ALGO = Normal (Fast and All are other alternatives; Normal is robust)
+NELM = 100 (Max nb. of scf steps)
