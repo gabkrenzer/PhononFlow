@@ -3,7 +3,7 @@
 mkdir Results
 cp fitting.sh Results
 cp ModeMap_PolyFit.py Results 
-for MODE in 1 
+for MODE in 1 #update 
 do
 	cd $MODE
 	echo $MODE
