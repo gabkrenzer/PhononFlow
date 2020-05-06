@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-for NUM in 1 #update with the number of modes of interest
+for NUM in 1 #update with the modes of interest
 do
 	echo $NUM
 	mkdir $NUM
