@@ -1,6 +1,6 @@
 #!/bin/bash -l
 
-for NUM in {001..003}
+for NUM in {001..003} #update with the number of POSCAR-XXX generated
 do
    echo $NUM  
    mkdir $NUM 
