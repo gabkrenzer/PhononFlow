@@ -7,10 +7,10 @@ This workflow is designed to help you get started, or improve your workflow usin
 - You must have `ModeMap.py`, `ExtractTotalEnergies.py`, `ModeMap_PostProcess.py`, and `ModeMap_PolynomialFit.py` in your main directory, see [ModeMap](https://github.com/JMSkelton/ModeMap).
 
 ## Usage 
+### Mind Map
 A typical workflow looks like this:
 PICTURE
-
-## Scripts
+### Scripts
 Using the scripts it gives a five step worklow:
 1. `structures.sh` runs `ModeMap.py` for all the MODEs of interest and untar MODEMAP.tar.gz, which contains all the MPOSCARs.
 2. `singlepoint_norun.sh` and `singlepoint_run.sh` distributes all MPOSCARs into single directories with INCAR, KPOINTS, POTCAR, and job script files. I recommend starting with `singlepoint_norun.sh` and then test that calculations are well converged before using `singlepoint_run.sh`.
