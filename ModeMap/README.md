@@ -9,6 +9,7 @@ This workflow is designed to help you get started, or improve your workflow usin
 ## Usage 
 ### Mind Map
 A typical workflow looks like this:
+
 PICTURE
 ### Scripts
 Using the scripts it gives a five step worklow:
