@@ -1,4 +1,6 @@
 # ModeMap Workflow
+## Purpose
+This workflow is designed to help you get started, or improve your workflow using ModeMap to analyse potential energy surfaces of phonon modes.
 
 ## Requirements
 - You must have calculated FORCE_SETS from phonopy previously, see [phonopy](../phonopy) for help.
