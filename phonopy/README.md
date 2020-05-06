@@ -3,7 +3,7 @@
 This workflow is designed to help you get started, or improve your workflow using phonopy to calculate a number of exciting properties. This workflow uses a finite difference approach. I have ignored the Density Functional Perturbation Theory approach but more details can be found here: https://phonopy.github.io/phonopy/vasp-dfpt.html.
 
 ## Requirements
-- You must have previously performed a geometry optimisation on your structure. 
+You must have previously performed a geometry optimisation on your structure. 
 
 ## Usage 
 ### Mind Map
