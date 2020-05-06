@@ -10,7 +10,8 @@ There is no requirement.
 A typical workflow looks like this:
 PICTURE
 ### Scripts
-
+There are only two scripts needed for this workflow since most of it can be run from the command line:
+- fd.sh distributes all POSCAR-XXX into single XXX directories with INCAR, KPOINTS, POTCAR, and job script files.
 
 ## INCAR & KPOINTS
 For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `NSW = 0` to avoid relaxing the structure.
