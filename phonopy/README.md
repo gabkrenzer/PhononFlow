@@ -18,3 +18,7 @@ There are only two scripts needed for this workflow since most of it can be run 
 For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `NSW = 0` to avoid relaxing the structure.
 
 ## Additional Resources
+- [SUMO](https://github.com/ajjackson/sumo) to plot phonon dispersions and density of states.
+- [ASCII-Phonons](https://github.com/ajjackson/ascii-phonons) for animations.
+- A comprehensive list of all phonopy setting tags: https://phonopy.github.io/phonopy/setting-tags.html
+- A comprehensive list of all phonopy command line options: https://phonopy.github.io/phonopy/command-options.html
