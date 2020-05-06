@@ -5,7 +5,7 @@
  ICORELEVEL = 1    (Print core levels)
  !!ICHARG   = 11   (Non self-consistent: GGA/LDA band structures)
  !!NELECT   = 352  (No. of electrons: charged cells; be careful)
- NBANDS   = 192   (No. of bands; more than NELECT/2)
+ !!NBANDS   = 192   (No. of bands; more than NELECT/2)
 
 !Parallelisation: 
  !!LPLANE = .TRUE. (Real space distribution; supercells)
