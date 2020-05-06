@@ -1,0 +1,38 @@
+!Initialisation:
+ NWRITE = 2        (Medium-level output)   
+ ISTART = 1        (Read existing wavefunction; if there) 
+ INIWAV = 1        (Random initial wavefunction; otherwise)
+ ICORELEVEL = 1    (Print core levels)
+ !!ICHARG   = 11   (Non self-consistent: GGA/LDA band structures)
+ !!NELECT   = 352  (No. of electrons: charged cells; be careful)
+ NBANDS   = 192   (No. of bands; more than NELECT/2)
+
+!Parallelisation: 
+ !!LPLANE = .TRUE. (Real space distribution; supercells)
+ NCORE   = 24      (Usually NCORE=cores.per.node; sometimes /2))
+ !!KPAR   = 2      (Divides k-grid into separate groups; KPAR[<=4]=nb.of.nodes)
+
+!Electronic Relaxation:
+ PREC  = Accurate  (Precision level)
+ LWAVE = .FALSE. (Wavefunctions not written in WAVECAR)
+ LCHARG = .FALSE. (Charge densities not written in CHGCAR/CHG)
+ LREAL = .FALSE. (Accurate forces for phonon calculations)
+ IALGO  = 38 (Blocked-Davidson Algorithm)     
+ ENMAX = 500.00 eV (Plane-wave cutoff) 
+ NELM  = 50        (Max SCF steps)   
+ NELMIN = 5        (Min SCF steps; 4-8 for well converged forces)
+ EDIFF = 1E-08     (SCF energy convergence) 
+ ISPIN =  1        (Closed shell DFT)
+ !!ISPIN = 2       (Spin-polarised DFT)
+ GGA     =  PS     (PBEsol exchange-correlation)
+ ADDGRID = .TRUE.  (Increase grid; helps GGA convergence) 
+ !!LASPH = .TRUE.  (Non-spherical elements; d/f convergence)
+
+
+!Ionic Relaxation:
+ NSW    =      0     (0 ionic step; no relaxation) 
+ IBRION =      -1     (No update: -1)
+ ISIF   =      3     (Stress/relaxation: 2-Ions, 3-Shape/Ions/V, 7-Vol)
+ ISYM   =      2     (Symmetry: 0=none; 2=GGA; 3=hybrids) 
+ ISMEAR =      0     (Gaussian smearing; metals=1)
+ SIGMA  =      0.01  (Smearing value in eV; metals=0.2)
