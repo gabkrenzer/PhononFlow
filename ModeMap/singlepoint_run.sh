@@ -1,11 +1,11 @@
 #/bin/bash -l
 
-for MODE in 1
+for MODE in 1 #update with the number of modes that are of interest
 do
 	cd $MODE
 	echo MODE $MODE
 
-	for NUM in {001..021}
+	for NUM in {001..021} #update with the number of MPOSCAR generated
 	do
 		echo $NUM  
    		mkdir $NUM 
