@@ -19,7 +19,7 @@ There are only two scripts needed for this workflow since most of it can be run 
 - `clean_ph.sh` simply clean irrelevant files from all sub-directories.
 
 ## INCAR & KPOINTS
-For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `NSW = 0` to avoid relaxing the structure.
+For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `IBRION = -1` to avoid relaxing the structure.
 
 ## Additional Resources
 - [SUMO](https://github.com/ajjackson/sumo) to plot phonon dispersions and density of states.
