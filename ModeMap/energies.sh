@@ -1,6 +1,6 @@
 #/bin/bash -l
 
-for MODE in 1 #update with number of modes that are of interest
+for MODE in 1 #update with the number of modes that are of interest
 do
 	cd $MODE
 	echo $MODE
