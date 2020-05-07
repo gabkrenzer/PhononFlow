@@ -19,6 +19,9 @@ Using the scripts it gives a five step worklow - each step is highlighted on the
 4. `postprocess.sh` runs `ModeMap_PostProcess.py` for all MODEs and creates the directory Results, which stores the potential energy surface for each mode.
 5. `fitting.sh` runs `ModeMap_PolyFit.py` for all MODEs.
 
+### Additional Tips
+The relationship between Q and displacement depends on the atomic mass. Therefore, keep in mind that a small value for Q might push light atoms very far and give something unphysical, where it would be fine for heavier atoms. 
+
 ## INCAR & KPOINTS
 For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `NSW = 0` to avoid relaxing the structure, and `LREAL = .FALSE.` for accurate forces.
 
@@ -27,4 +30,5 @@ For reference, I have also attached typical annotated INCAR and KPOINTS files us
 - [ISODISTORT](https://stokes.byu.edu/iso/isodistort.php) can be used to link the top and bottm well structures. You need to convert the corresponding MPOSCARs to .cif files that contain the symmetry elements for each structure. ISODISTORT is a great tool in general to explore the connection between structures.
 
 ## Additional Resources
-I use the [Bilbao Crystallographic Server](https://www.cryst.ehu.es) to find k-point coordinates of a given space group. 
+[Bilbao Crystallographic Server](https://www.cryst.ehu.es) to find k-point coordinates of a given space group. 
+[VESTA](http://jp-minerals.org/vesta/en/) to investigate MPOSCARs and verify that structures make sense and that we have not pushed too far.
