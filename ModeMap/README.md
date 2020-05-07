@@ -20,7 +20,7 @@ Using the scripts it gives a five step worklow:
 5. `fitting.sh` runs `ModeMap_PolyFit.py` for all MODEs.
 
 ## INCAR & KPOINTS
-For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `NSW = 0` to avoid relaxing the structure.
+For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspect of the INCAR is `NSW = 0` to avoid relaxing the structure, and `LREAL = .FALSE.` for accurate forces.
 
 ## Further Study of Imaginary Modes
 - Phonopy can be used to further investigate the bottom well structure, by looking at its symmetry for instance. Simply use the corresponding MPOSCAR.
