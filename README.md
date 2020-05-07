@@ -11,6 +11,7 @@ I use the following:
 - [ASCII-Phonons](https://github.com/ajjackson/ascii-phonons) for animations.
 - [ISODISTORT](https://stokes.byu.edu/iso/isodistort.php) to connect structures via symmetry analysis.
 - [SUMO](https://github.com/ajjackson/sumo) to plot phonon dispersions and density of states.
+- [VESTA](http://jp-minerals.org/vesta/en/) to visualise structures.
 
 ## Workflows
 You can find workflows to:
