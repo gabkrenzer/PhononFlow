@@ -12,7 +12,7 @@ A typical workflow looks like this:
 
 ![](diagramme_modemap.png)
 ### Scripts
-Using the scripts it gives a five step worklow:
+Using the scripts it gives a five step worklow - each step is highlighted on the mind map:
 1. `structures.sh` runs `ModeMap.py` for all the MODEs of interest and untar MODEMAP.tar.gz, which contains all the MPOSCARs. 
 2. `singlepoint_norun.sh` and `singlepoint_run.sh` distributes all MPOSCARs into single directories with INCAR, KPOINTS, POTCAR, and job script files. I recommend starting with `singlepoint_norun.sh` and then test that calculations are well converged before using `run.sh`, which is specifically designed to run single point calculations for all structures apart from the undisturbed and extreme ones.
 3. `energies.sh` runs `ExtractTotalEnergies.py` for all MODEs and cleans irrelevant files from all sub-directories. 
