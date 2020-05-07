@@ -10,7 +10,7 @@ This workflow is designed to help you get started, or improve your workflow usin
 ### Mind Map
 A typical workflow looks like this:
 
-PICTURE
+![](diagramme_modemap.png)
 ### Scripts
 Using the scripts it gives a five step worklow:
 1. `structures.sh` runs `ModeMap.py` for all the MODEs of interest and untar MODEMAP.tar.gz, which contains all the MPOSCARs. 
