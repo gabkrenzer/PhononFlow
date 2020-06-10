@@ -19,5 +19,5 @@ You can find workflows to:
 2. Run [phonopy-qha](phonopy-qha) to perform studies using the quasi-harmonic approximation.
 3. Use [ModeMap](ModeMap) to analyse potential energy surface along phonon modes.
 
-## Mind Maps
+## Acknowledgments
 All the mind maps were kindly realised by Justine Riou. 
