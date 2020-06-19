@@ -30,5 +30,5 @@ For reference, I have also attached typical annotated INCAR and KPOINTS files us
 - [ISODISTORT](https://stokes.byu.edu/iso/isodistort.php) can be used to link the top and bottm well structures. You need to convert the corresponding MPOSCARs to .cif files that contain the symmetry elements for each structure. ISODISTORT is a great tool in general to explore the connection between structures.
 
 ## Additional Resources
-- [Bilbao Crystallographic Server](https://www.cryst.ehu.es) to find k-point coordinates of a given space group. 
+- [Bilbao Crystallographic Server](https://www.cryst.ehu.es/cryst/get_kvec.html) to find k-point coordinates of a given space group. Make sure to use the CDML coefficients, not the ITA coordinates.
 - [VESTA](http://jp-minerals.org/vesta/en/) to investigate MPOSCARs and verify that structures make sense and that we have not pushed too far.
