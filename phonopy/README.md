@@ -9,7 +9,7 @@ You must have previously performed a geometry optimisation on your structure.
 ### Mind Map
 A typical workflow looks like this:
 
-![](diagramme_phonopy_1.pdf)
+![](diagramme_phonopy.png)
 
 Please go to https://phonopy.github.io/phonopy/vasp.html for more support.
 
