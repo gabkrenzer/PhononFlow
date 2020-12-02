@@ -9,6 +9,7 @@ This workflow is designed to help you get started, or improve your workflow usin
 ## Usage 
 ### Mind Map
 A typical workflow looks like this:
+
 *Note: for the `--q-mode` argument I meant start end **step**, not start end stop*
 
 ![](diagramme_modemap.png)
