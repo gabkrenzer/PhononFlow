@@ -26,4 +26,3 @@ For reference, I have also attached typical annotated INCAR and KPOINTS files us
 - [ASCII-Phonons](https://github.com/ajjackson/ascii-phonons) for animations.
 - A comprehensive list of all phonopy setting tags: https://phonopy.github.io/phonopy/setting-tags.html.
 - A comprehensive list of all phonopy command line options: https://phonopy.github.io/phonopy/command-options.html.
-- More theoretical background: _Introduction to Lattice Dynamics_ by Martin T. Dove + _Thermodynamics of Crystals_ by Duane C. Wallace.
