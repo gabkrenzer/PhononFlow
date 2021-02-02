@@ -6,7 +6,7 @@
 
 !Parallelisation:
  !!LPLANE = .TRUE. (Real space distribution; supercells)
- NCORE   = 24      (Usually NCORE=cores.per.node/2; sometimes = cores.per.node)
+ NCORE   = 12      (Usually NCORE=cores.per.node/2; sometimes = cores.per.node)
  !!KPAR   = 2      (Divides k-grid into separate groups; KPAR[<=4]=nb.of.nodes)
 
 !Electronic Relaxation:
