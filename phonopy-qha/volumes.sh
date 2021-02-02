@@ -2,7 +2,9 @@
 #this script creates POSCAR files with new volumes
 #fives smaller volumes and fiver larger volumes
 #it assumes the volume of the equilibrium structure is 1.0
-#this script is a little limited in how you can increase/decrease the volume
+#this script/workflow is a little limited in how you can increase/decrease the volume
+#it works well if you want just that, but it is fiddly to change if you want something different
+#at least it requires a bit of experience with shell scripting
 #I am thinking about switching to python for this task
 
 cp POSCAR POSCAR-0
