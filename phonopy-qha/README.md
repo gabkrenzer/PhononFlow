@@ -4,7 +4,7 @@
 This workflow is designed to help you get started, or improve your workflow using phonopy-qha, the quasi-harmonic version of phonopy. Phonopy-qha takes into account volume expansion effects due to temperature by performing phonopy harmonic calculations at different volumes. This way, you can calculate phonon properties at different non-zero temperatures.
 
 ## Requirements
-You should already be confident in using the [phonopy workflow](github.com/gabkrenzer/PhononFlow/phonopy). 
+You should already be confident in using the [phonopy workflow](https://github.com/gabkrenzer/PhononFlow/tree/master/phonopy). 
 
 ## Usage 
 ### Mind Map
