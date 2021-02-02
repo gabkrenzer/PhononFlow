@@ -25,4 +25,4 @@ I use the following:
 - Phonopy overview paper: [First principles phonon calculations in materials science](https://www.sciencedirect.com/science/article/pii/S1359646215003127) by Atsushi Togo and Isao Tanaka.
 
 ## Acknowledgments
-All the mind maps were kindly realised by Justine Riou. 
+The ModeMap mind map was kindly realised by Justine Riou. 
