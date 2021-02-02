@@ -7,7 +7,7 @@ qsub myjobfile.job
 cd ../
 sleep 1
 
-for NUM in {1..5} #corresponds to numbers used with volumes.sh; directory names
+for NUM in {1..5} #must be consistent with volumes.sh; directory names
 do
    echo $NUM-
    cd $NUM-
@@ -17,7 +17,7 @@ do
    sleep 1
 done
 
-for NUM in {1..5} #corresponds to numbers used with volumes.sh; directory names
+for NUM in {1..5} #must be consistent with volumes.sh; directory names
 do
    echo $NUM+
    cd $NUM+
