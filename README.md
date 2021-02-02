@@ -22,6 +22,7 @@ I use the following:
 ## Theoretical Background
 - _Introduction to Lattice Dynamics_ by Martin T. Dove.
 - _Thermodynamics of Crystals_ by Duane C. Wallace.
+- A. Togo and I. Tanaka, [First principles phonon calculations in materials science](https://www.sciencedirect.com/science/article/pii/S1359646215003127) (2015)
 
 ## Acknowledgments
 All the mind maps were kindly realised by Justine Riou. 
