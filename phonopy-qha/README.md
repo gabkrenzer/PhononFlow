@@ -12,7 +12,7 @@ A typical workflow looks like this:
 
 ![](diagramme_phonopy.png)
 
-Please go to https://phonopy.github.io/phonopy/qha.html for equations and more support.
+Please go to https://phonopy.github.io/phonopy/qha.html for more support.
 
 ### Scripts
 
