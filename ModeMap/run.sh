@@ -6,7 +6,7 @@ do
 	cd $MODE
 	echo MODE $MODE
 
-	for NUM in {002..YYY} #update with the number of MPOSCAR
+	for NUM in {002..(EQ-1)} #update with the number of MPOSCAR; from 002 to equilibrium-1
 	do
 		echo $NUM 
    		cd  $NUM
@@ -14,7 +14,7 @@ do
    		cd ../
    		sleep 1
 	done
-	for NUM in {(YYY+2)..XXX} #update with the number of MPOSCAR
+	for NUM in {(EQ+1)..(MAX-1)} #update with the number of MPOSCAR; from equilibrium+1 to MAX-1
 	do
 		echo $NUM 
    		cd  $NUM
