@@ -1,5 +1,5 @@
 Automatic mesh
 0
 G (M)
-4 4 4 (Aim for the same sampling as in the bulk calculation)
+N N N (Aim for the same sampling as in the bulk calculation)
 0.  0.  0.
