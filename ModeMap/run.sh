@@ -1,5 +1,6 @@
 #/bin/bash -l
 #this script runs single point calculations for all MPOSCARs excpet the two extreme and the equilibrium structures
+#it should be used after singlepoint_norun.sh, and after running the two extreme and the equilbrium structures to check for convergence
 
 for MODE in X Y Z #update with the number of modes that are of interest
 do
