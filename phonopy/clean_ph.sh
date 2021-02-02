@@ -1,16 +1,13 @@
 #!/bin/bash -l
 
-for NUM in {001..XXX} #update with the number of POSCAR-XXX generated
+for NUM in {001..XXX} #update with the number of XXX directories
 do
-   echo $NUM
-   mkdir $NUM
-   cp -r INCAR POTCAR KPOINTS ./$NUM/
-   cp POSCAR-$NUM $NUM/POSCAR
-   cp phonon.job $NUM/
-   cd  $NUM
-   qsub phonon.job #it is recommended to test convergence/paralellisation before submitting all jobs
-   cd ../
-   sleep 1
+        cd $NUM
+        rm CHG* REPORT
+        rm WAVECAR CONTCAR
+        rm phonon.e* phonon.o* phonon.po* phonon.pe*
+        #feel free to add anymore files here
+        cd ../
 done
 
 
