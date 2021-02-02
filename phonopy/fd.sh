@@ -6,7 +6,7 @@ do
    mkdir $NUM
    cp -r INCAR POTCAR KPOINTS ./$NUM/
    cp POSCAR-$NUM $NUM/POSCAR
-   cp phonon.job $NUM/
+   cp myjobfile.job $NUM/ #update with job file name
    cd  $NUM
    qsub phonon.job #it is recommended to test convergence/paralellisation before submitting all jobs
    cd ../
