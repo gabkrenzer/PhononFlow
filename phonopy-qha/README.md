@@ -1,7 +1,11 @@
 # Phonopy-qha Workflow
 
 ## Purpose
-This workflow is designed to help you get started, or improve your workflow using phonopy-qha, the quasi-harmonic version of phonopy. Phonopy-qha takes into account volume expansion effects due to temperature by performing phonopy harmonic calculations at different volumes. This way, you can calculate phonon properties at different non-zero temperatures.
+This workflow is designed to help you get started, or improve your workflow using phonopy-qha, the quasi-harmonic version of phonopy. Phonopy-qha takes into account volume expansion effects due to temperature by calculating thermal properties at different volumes from phonopy harmonic calculations. From this, more accurate temperature-dependent properties can be calculated versus temperature: volume, thermal expansion coefficient, bulk modulus, heat capacity, Gr\"uneisen parameter, phonon dispersion...
+
+To illustrate this a little bit more, I have attached graphical representations of quantities obtained using phonopy and the quasi-harmonic approximation for \alpha-Li_3N. On the left, the free energy, F(V, T), is approximated as the sum of the electronic internal energy, U_{el}(V), and the phonon Helmholtz free energy, F_{ph}(V, T). U_{el}(V) is obtained from first principles electronic structure calculations at different volumes, V , and F_{ph}(V, T) is obtained from first principles lattice dynamics calculations at different V and temperatures, T. F(V, T) is plotted against volume for different temperatures from 0K to 690K in six steps of 100K and a final one of 90 K. The line connects
+the lowest energy points at each temperature. This way, we are able to find the equilibrium volume at each temperature, which is shown on the right.
+![](QHA.pdf)
 
 ## Requirements
 You must have previously performed convergence tests on your parameters and a geometry optimisation on your structure. You should also be confident in using the [phonopy workflow](https://github.com/gabkrenzer/PhononFlow/tree/master/phonopy). 
