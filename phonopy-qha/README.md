@@ -5,6 +5,7 @@ This workflow is designed to help you get started, or improve your workflow usin
 
 To illustrate this a little bit more, I have attached graphical representations of quantities obtained using phonopy and the quasi-harmonic approximation for Li3N. On the left, the free energy, _F(V, T)_, is approximated as the sum of the electronic internal energy, _Uel(V)_, and the phonon Helmholtz free energy, _F_ph(V, T)_. _Uel(V)_ is obtained from first principles electronic structure calculations at different volumes, _V_ , and _Fph(V, T)_ is obtained from first principles lattice dynamics calculations at different _V_ and temperatures, _T_. _F(V, T)_ is plotted against volume for different temperatures from 0K to 690K in six steps of 100K and a final one of 90 K. The line connects
 the lowest energy points at each temperature. This way, we are able to find the equilibrium volume at each temperature, which is shown on the right.
+
 ![graphs](QHA-1.png)
 
 ## Requirements
