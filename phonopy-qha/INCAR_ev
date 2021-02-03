@@ -7,7 +7,7 @@
 !Parallelisation:
  !!LPLANE = .TRUE. (Real space distribution; supercells)
  !!KPAR   = 2      (Divides k-grid into separate groups)
-  NCORE = 24 (Usually equal to nb_of_cores/2; = nb_of_cores for large calculations)
+  NCORE = 12 (Usually equal to nb_of_cores/2; = nb_of_cores for large calculations)
 
 !Electronic Relaxation:
  PREC  = Accurate  (Precision level)
