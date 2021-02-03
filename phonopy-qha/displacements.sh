@@ -7,7 +7,7 @@ mv CONTCAR POSCAR
 phonopy -d --dim="2 2 2"
 cd ..
 
-for NUM in {1..5} #must be consistent with volumes.sh/names of the directories
+for NUM in {1..5} #must be consistent with volumes.sh/directory names
 do
         echo $NUM-
         cd $NUM-
@@ -17,7 +17,7 @@ do
         cd ..
 done
 
-for NUM in {1..5} #must be consistent with volumes.sh/names of the directories
+for NUM in {1..5} #must be consistent with volumes.sh/directory names
 do
         echo $NUM+
         cd $NUM+
