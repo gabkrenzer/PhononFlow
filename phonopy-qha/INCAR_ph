@@ -6,8 +6,8 @@
 
 !Parallelisation:
  !!LPLANE = .TRUE. (Real space distribution; supercells)
- NCORE   = 12      (Max is no. nodes; don't set for hybrids)
- KPAR   = 2      (Divides k-grid into separate groups)
+ NCORE   = 12      (Usually NCORE=cores.per.node/2; sometimes = cores.per.node)
+ !!KPAR   = 2      (Divides k-grid into separate groups)
 
 !Electronic Relaxation:
  PREC  = Accurate  (Precision level)
@@ -28,7 +28,6 @@
 
 !Ionic Relaxation:
  NSW    =      0     (0 ionic step; no relaxation)
- NBLOCK =      1     (Update XDATCAR every X steps)
  IBRION =      -1     (No update: -1; Algorithm: 0-MD; 1-Quasi-New; 2-CG)
  ISYM   =      2     (Symmetry: 0=none; 2=GGA; 3=hybrids)
  ISMEAR =      0     (Gaussian smearing; metals=1)
