@@ -5,7 +5,7 @@
 echo '' > e-v.dat
 echo '# cell volume   energy of cell other than phonon' >> e-v.dat
 
-for i in {1..5} #must be consistent with volumes.sh
+for i in {1..5} #must be consistent with volumes.sh/directory names
 do
         MINUS=`echo "6-$i" | bc` #start from 5 to 1; if different for loop update as "(MAX+1)-$i"
         cd $MINUS-
@@ -21,7 +21,7 @@ ENERGY="$(grep 'E0' OSZICAR | tail -n 1 | grep -o '.[0-9]\{8\}E+[0-9]\{2\}' | ta
 cd ..
 echo "$VOLUME -$ENERGY" >> e-v.dat
 
-for PLUS in {1..5} #must be consistent with volumes.sh
+for PLUS in {1..5} #must be consistent with volumes.sh/directory names
 do
         cd $PLUS+
         VOLUME="$(grep 'volume of cell' OUTCAR | head -n 1 | grep -o '[0-9]\{2\}.[0-9]\{2\}')"
