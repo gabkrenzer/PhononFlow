@@ -22,7 +22,7 @@ Please go to https://phonopy.github.io/phonopy/qha.html for more support.
 
 
 ## INCAR & KPOINTS
-For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspects of the INCAR are `IBRION = -1` to avoid relaxing the structure, and `LREAL = .FALSE.` for accurate forces.
+For reference, I have also attached typical annotated INCAR and KPOINTS files used for the e-v curve calculation and for the single point calculations. For the e-v curve step, do not forget to set `ISIF = 3` in the INCAR to fix the volume. For the single point claculations, make sure to use `IBRION = -1` to avoid relaxing the structure, and `LREAL = .FALSE.` for accurate forces.
 
 ## Additional Resources
 - A comprehensive list of all phonopy setting tags: https://phonopy.github.io/phonopy/setting-tags.html.
