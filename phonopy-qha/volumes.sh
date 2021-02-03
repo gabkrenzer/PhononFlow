@@ -1,11 +1,11 @@
 #!/bin/bash -l
 #this script creates POSCAR files with new volumes
 #fives smaller volumes and fiver larger volumes
-#it assumes the volume of the equilibrium structure is 1.0
+#it assumes the volume of the equilibrium structure is 1.0 - in POSCAR
 #this script/workflow is a little limited in how you can increase/decrease the volume
-#it works well if you want just that, but it is fiddly to change if you want something different
-#at least it requires a bit of experience with shell scripting
-#I am thinking about switching to python for this task
+#it works very well if you want just that, but it is fiddly to change if you want something different
+#at least, it requires a bit of experience with shell scripting
+#I am thinking about switching to python for the e-v curve step
 
 cp POSCAR POSCAR-0
 mkdir 0
