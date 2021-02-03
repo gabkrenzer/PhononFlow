@@ -32,4 +32,3 @@
  ISYM   =      2     (Symmetry: 0=none; 2=GGA; 3=hybrids)
  ISMEAR =      0     (Gaussian smearing; metals=1)
  SIGMA  =      0.01  (Smearing value in eV; metals=0.2)
- 
