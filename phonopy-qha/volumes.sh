@@ -9,7 +9,7 @@
 
 cp POSCAR POSCAR-0
 mkdir 0
-cp POSCAR-0 KPOINTS POTCAR INCAR qha.job 0
+cp POSCAR-0 KPOINTS_ev POTCAR INCAR_ev qha.job 0
 echo MINUS
 for MINUS in {1..5..1} #whatever 0.0X and steps you want to decrease your volume by; careful 10 is equivalent to 1 here since 0.01 = 0.010
 do
