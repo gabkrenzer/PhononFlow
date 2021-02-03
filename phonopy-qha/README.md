@@ -27,9 +27,16 @@ Please go to https://phonopy.github.io/phonopy/qha.html for more support.
 ### Scripts
 
 
+### Going Furhter - thermal dependence of the phonon dispersion
+There are three ways of obtaining the thermal dependence of the phonon dispersion
+1. From your phonopy-qha calculations. If you had generated volumes that correspond to temperatures that are in the range of what you are looking for. This technique is, however, only useful if you do have calculated data for volumes that correspond to temperatures that are in the range of what you are looking for, which is unlikely unless carefully planned for. Even then, you might not end up with enough volumes, and you will not be able the calculate it for specific temperature. 
+2. Redo phonon calculations at specific volumes that correspond to desired temperatures. This can be found in the `volume-temperature.*` data obtained from phonopy-qha. This technique is, however, computationally expensive and time-consuming.
+3. Use my phonopy-gruneisen workflow that uses the data from the equilibrium volume, a larger volume, and a smaller volume, which you already have from phonopy-qha.
+
 ## INCAR & KPOINTS
 For reference, I have also attached typical annotated INCAR and KPOINTS files used for the e-v curve calculation and for the single point calculations. For the e-v curve step, do not forget to set `ISIF = 4` in the INCAR to fix the volume. For the single point claculations, make sure to use `IBRION = -1` to avoid relaxing the structure, and `LREAL = .FALSE.` for accurate forces.
 
 ## Additional Resources
+- [SUMO](https://github.com/ajjackson/sumo) to plot the thermal dependence of the phonon dispersions using the `--to-json` and `--from-json` functionalities.
 - A comprehensive list of all phonopy setting tags: https://phonopy.github.io/phonopy/setting-tags.html.
 - A comprehensive list of all phonopy command line options: https://phonopy.github.io/phonopy/command-options.html.
