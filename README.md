@@ -7,7 +7,7 @@ You can find workflows to:
 1. Run [phonopy](phonopy) and obtain phonon dispersions, density of states, mode symmetries, mode animatiuons, thermal properties and many others...
 2. Use [ModeMap](ModeMap) to analyse potential energy surface along phonon modes.
 3. Run [phonopy-qha](phonopy-qha) to perform studies using the quasi-harmonic approximation.
-4. Run [phonopy-gruneisen](phonopy-gruneisen)
+4. Run [phonopy-gruneisen](phonopy-gruneisen) to obtain the thermal dependence of phonon dispersions easily.
 
 ## Phonopy 
 [Phonopy](https://phonopy.github.io/phonopy/) is the backbone of any of my phonon calculations. You can download it here: https://phonopy.github.io/phonopy/install.html
