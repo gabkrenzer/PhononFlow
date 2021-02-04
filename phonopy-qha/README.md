@@ -9,7 +9,7 @@ the lowest energy points at each temperature. This way, we are able to find the 
 ![graphs](QHA-1.png)
 
 ## Requirements
-You must have previously performed convergence tests on your parameters and a geometry optimisation on your structure. You should also be confident in using the [phonopy workflow](https://github.com/gabkrenzer/PhononFlow/tree/master/phonopy). 
+You must have previously performed convergence tests on your parameters and a geometry optimisation on your structure. You should also be confident in using the [phonopy workflow](phonopy). 
 
 ## Usage 
 It is a three step process:
