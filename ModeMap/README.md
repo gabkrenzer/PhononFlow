@@ -34,4 +34,4 @@ For reference, I have also attached typical annotated INCAR and KPOINTS files us
 ## Additional Resources
 - [Bilbao Crystallographic Server](https://www.cryst.ehu.es/cryst/get_kvec.html) to find k-point coordinates of a given space group. Make sure to use the CDML coefficients, not the ITA coordinates.
 - [VESTA](http://jp-minerals.org/vesta/en/) to investigate MPOSCARs and verify that structures make sense and that we have not pushed too far.
-- For more on displacive phase transitions, see Martin T. Dove's [Theory of Displacive Phase Transitions in Minerals](https://www.researchgate.net/publication/279592973_Theory_of_Displacive_Phase_Transitions_in_Minerals).
+- For more on displacive phase transitions, see Martin T. Dove's [Theory of Displacive Phase Transitions in Minerals](https://www.researchgate.net/publication/279592973_Theory_of_Displacive_Phase_Transitions_in_Minerals) (1997).
