@@ -23,4 +23,5 @@ do
    		cd ../
    		sleep 1
 	done
+	cd ../
 done
