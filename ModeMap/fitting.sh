@@ -1,7 +1,6 @@
 #!/bin/bash -l
 
 cd Results
-
 for MODE in X Y Z #update with the number of modes of interest
 do
 	echo $MODE
