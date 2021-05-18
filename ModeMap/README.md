@@ -3,7 +3,7 @@
 This workflow is designed to help you get started, or improve your workflow using ModeMap to analyse potential energy surfaces of phonon modes.
 
 ## Requirements
-- You must have calculated FORCE_SETS from phonopy previously, see [phonopy](../phonopy) for help.
+- You must have calculated a converged FORCE_SETS from phonopy previously, see [phonopy](../phonopy) for help.
 - You must have `ModeMap.py`, `ExtractTotalEnergies.py`, `ModeMap_PostProcess.py`, and `ModeMap_PolynomialFit.py` in your main directory, see [ModeMap](https://github.com/JMSkelton/ModeMap).
 
 ## Usage 
