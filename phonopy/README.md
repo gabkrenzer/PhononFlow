@@ -18,7 +18,7 @@ There are only one script needed for this workflow since most of it can be run f
 - `fd.sh` distributes all POSCAR-XXX into single XXX directories with INCAR, KPOINTS, POTCAR, and job script files. I would recommend testing convergence on one structure first and then proceed with all the other ones.
 
 ## INCAR & KPOINTS
-For reference, I have also attached typical annotated INCAR and KPOINTS files used for a single point calculation. The most important aspects of the INCAR are `IBRION = -1` to avoid relaxing the structure, and `LREAL = .FALSE.` for accurate forces.
+For reference, typical annotated INCAR and KPOINTS files used for a single point calculation are attached. The most important aspects of the INCAR are `IBRION = -1` to avoid relaxing the structure, and `LREAL = .FALSE.` for accurate forces.
 
 ## Additional Resources
 - [SUMO](https://github.com/ajjackson/sumo) to plot phonon dispersions and density of states.
